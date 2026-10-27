@@ -1,0 +1,29 @@
+Type this exactly and press Enter:
+
+cmd
+pip install -r requirements.txt
+If that command throws an error (like pip is not recognized or ERROR: Could not open requirements file), just install the libraries manually by typing this instead:
+
+cmd
+pip install pandas scikit-learn numpy flask joblib
+After the installation finishes, you will see a lot of text downloading and installing. Once it's done and your prompt (C:\Users\Innocent\malnutrition_prediction>) returns:
+
+Step 1: Train the model
+
+cmd
+python train_model.py
+(You should now see the Accuracy, Precision, and Recall printed)
+
+Step 2: Run the web app
+
+cmd
+python app.py
+Step 3: Open your browser and go to http://127.0.0.1:5000
+
+Troubleshooting if pip itself fails:
+If you get an error about pip not being found, use this alternative command to install:
+
+cmd
+python -m pip install pandas scikit-learn numpy flask joblib
+Go ahead and run the installation now, and let me know what happens next!
+
